@@ -18,7 +18,7 @@ All configurations were implemented in **Cisco Packet Tracer**.
 
 ## Lab Topology
 
-![OSPF + RIP Topology](screenshots/topology.jpg)
+![OSPF + RIP Topology](screenshots/topology2.jpg)
 
 The topology includes:
 
