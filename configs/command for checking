@@ -1,0 +1,21 @@
+! On any router
+show ip interface brief      
+show ip route                   
+show ip route ospf              
+show ip ospf neighbor  
+
+! On R2(ABR)
+show ip ospf database          
+show ip ospf database nssa-external 
+
+! On R3(ASBR)
+show ip rip database          
+show ip route rip              
+
+! Tests
+! From PC3:
+ping 10.10.10.2  
+ping 44.44.44.44 
+
+! From PC4:
+ping 192.168.1.2  
